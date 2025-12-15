@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "hurt_block": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {},
+        "entity": {
+          "nbt": "{Tags:[\"slime\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "block_physics:rotation/common"
+  }
+}
